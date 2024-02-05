@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import React, { useState, useEffect } from 'react';
+import { useCallback } from 'react';
 
 import Image from 'react-bootstrap/Image';
 
@@ -16,7 +17,7 @@ let NavbarSection = () => {
   const [overlay, setOverlay] = useState(false);
   const [lastScrollY, setLastScrollY] = useState(0);
 
-  const controlNavbar = () => {
+  const controlNavbar = useCallback(() => {
     if(window.scrollY === 0){
       setOverlay(false);
     }
@@ -29,7 +30,7 @@ let NavbarSection = () => {
 
     // remember current page location to use in the next move
     setLastScrollY(window.scrollY);
-  };
+  }, [lastScrollY]);
 
   useEffect(() => {
     window.addEventListener('scroll', controlNavbar);
@@ -38,7 +39,7 @@ let NavbarSection = () => {
     return () => {
       window.removeEventListener('scroll', controlNavbar);
     };
-  }, [lastScrollY]);
+  }, [lastScrollY, controlNavbar]);
 
 
   return (
