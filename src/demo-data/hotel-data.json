@@ -1,0 +1,77 @@
+{
+    "config": {
+        "name": "Hotel The Grand Vardhaman",
+        "name_prefix": "The Grand",
+        "name_brand": "Vardhaman",
+        "tagline": "The Grand Experience",
+        "subtag": "The Best Stay With At An Affordable Price You Can Get In Vijay Nagar...",
+        "address_1": "EB 303, Scheme No. 94, Main Road",
+        "address_2": " opp. Bombay Hospital, Mahalaxmi Nagar",
+        "address_3": " Indore, Madhya Pradesh 452010",
+        "phone_1": "+91-9755020999",
+        "email": "thegrandvardhaman@gmail.com",
+        "tagline_big": "Great Stays Makes A Great Experience",
+        "aboutImage": "https://images.oyoroomscdn.com/uploads/hotel_image/90679/large/loexiymqlqrw.jpg",
+        "aboutText": "We from Hotel The Grand Vardhaman take the opportunity to introduce ourselves to you and your esteemed organization with varied hospitality services and quintessential space for various occasions to match your style, standards, tastes and preference.",
+        "aboutTextSub": " We have carved a unique niche with elegance, exceptional services embodying luxury & comfort for all our guests & visitors. We believe that the professionalism in hospitality is key to our success. We would look forward to further professional & business relationship, interaction with you and solicit your interest and initiative towards our hospitality services for you and your esteemed organisation.",
+        "footer_data": [
+            {
+                "name": "facebook",
+                "src": "https://www.facebook.com/",
+                "icon": "https://1000logos.net/wp-content/uploads/2021/10/logo-Meta.png"
+            },
+            {
+                "name": "OYO",
+                "src": "https://www.oyorooms.com/90679/",
+                "icon": "https://upload.wikimedia.org/wikipedia/commons/1/19/OYO_Rooms_%28logo%29.png"
+            },
+            {
+                "name": "Instagram",
+                "src": "https://www.instagram.com/",
+                "icon": "https://cdn4.iconfinder.com/data/icons/picons-social/57/38-instagram-2-512.png"
+            }
+        ],
+        "links": [
+            {
+                "displayName": "OYO",
+                "link": "https://www.oyorooms.com/90679/",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/OYO_Rooms_%28logo%29.png/600px-OYO_Rooms_%28logo%29.png"
+            },
+            {
+                "displayName": "Treebo",
+                "link": "https://www.treebo.com/hotels-in-indore/treebo-trip-grand-vardhaman-bombay-hospital-2953/?checkin=2024-01-20&checkout=2024-01-21&hotel_id=2953&roomconfig=1-0&sa=X&utm_campaign=hotelgrandvardhaman&utm_medium=gplus&utm_source=Partnerships&ved=2ahUKEwjLsYuh6OuDAxWgjmYCHYnsBqcQyK4DegUIAxDIAg",
+                "logo": "https://entrackr.com/storage/2020/01/treebo-1.jpg"
+            },
+            {
+                "displayName": "Booking.com",
+                "link": "https://www.booking.com/hotel/in/oyo-66622-the-grand-vardhaman.en-gb.html",
+                "logo": "https://1000logos.net/wp-content/uploads/2021/05/Booking.Com-logo.png"
+            },
+            {
+                "displayName": "MakeMyTrip",
+                "link": "https://www.makemytrip.com/hotels/collection_o_66622_the_grand_vardhaman-details-indore.html",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/6/61/Makemytrip_logo.svg"
+            },
+            {
+                "displayName": "Agoda",
+                "link": "https://www.agoda.com/en-in/treebo-trip-grand-vardhaman/hotel/indore-in.html?site_id=1829956&tag=42fb7cc0-7bf2-459f-bdf5-88468ba70ff6&device=c&network=g&adid=360104880167&rand=5062948481675633844&expid=&adpos=&gclid=Cj0KCQiAnrOtBhDIARIsAFsSe51IKX9c9STYy8_UOcSW7c2rmijyEw8lY5ZzMhNgwSWXVtck-CJ75kEaAt4CEALw_wcB&pslc=1&ds=WZRpiQpCcR45ik7A",
+                "logo": "https://cdn6.agoda.net/images/kite-js/logo/agoda/color-default.svg"
+            },
+            {
+                "displayName": "Trivago",
+                "link": "https://www.trivago.in/en-IN/oar/hotel-oyo-66622-the-grand-vardhaman-indore?search=100-21661698",
+                "logo": "https://ongpng.com/wp-content/uploads/2023/04/1.Trivago-Logo-2376x680-1.png"
+            },
+            {
+                "displayName": "Goibibo",
+                "link": "https://www.goibibo.com/hotels/collection-o-66622-the-grand-vardhaman-hotel-in-indore-4999422488803374427/?cmp=SEM|Google|CPC|D|DSA|Hotel_DSA_Domestic|Domestic-Hotel|&campaign=Hotel_DSA_Domestic&gad_source=1&gclid=Cj0KCQiAnrOtBhDIARIsAFsSe50r9avtfzdgWOWFqXB4n6PGBDGUOP9YMar9SblPAbNK0kL4eEgAJN4aAv2mEALw_wcB",
+                "logo": "https://flyingqueen.in/wp-content/uploads/2018/11/goibibo-logo.png"
+            },
+            {
+                "displayName": "TripAdvisor",
+                "link": "https://www.tripadvisor.in/Hotel_Review-g494941-d23204348-Reviews-Itsy_By_Treebo_Grand_Vardhaman-Indore_Indore_District_Madhya_Pradesh.html",
+                "logo": "https://logos-world.net/wp-content/uploads/2020/11/Tripadvisor-Logo-2020-present.jpg"
+            }
+        ]
+    }
+}

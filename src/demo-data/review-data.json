@@ -1,0 +1,87 @@
+{
+    "reviews" : [
+    {
+        "title": "Nice hotel",
+        "name": "Pradeep Roy",
+        "vendor": "OYO",
+        "review": "I was greeted by friendly and professional staff who were more than willing to assist me with any needs or questions I had. The room itself was spacious, clean, and well-appointed, with modern amenities that made my stay comfortable and enjoyable. The bed was extremely comfortable, and I had a great night's sleep every night I was there."
+    },
+    {
+        "title": "Exceptional",
+        "name": "Adsule",
+        "vendor": "Booking.com",
+        "review": "The room was very good and the service was amazing, the washroom was hygienic and the I enjoyed staying at the hotel."
+    },
+    {
+        "title": "Great stay",
+        "name": "Visnu12",
+        "vendor": "TripAdviser",
+        "review": "Nice location nd good service resonable prise for all time nd nice staff marketing in pass super hotel nd room mostly Air and all services good night room clean and perpact location nd super nice stay Indore"
+    },
+    {
+        "title": "Prime Location",
+        "name": "R.S. Vishwakarma",
+        "vendor": "Google Maps",
+        "review": "Just opposite to Bombay Hospital indore. Nice location.Tasty food, good room service, good staff, complementry breakfasts. Auto and taxi are available round the clock."
+    },
+    {
+        "title": "Overall Good",
+        "name": "Pramod Suryawanshi",
+        "vendor": "OYO",
+        "review": "Good service And good supporting Staff, thanks 👍"
+    },
+    {
+        "title": "Exceptional",
+        "name": "Akhilesh",
+        "vendor": "Booking.com",
+        "review": "staff behaviour was vertical homely its feel like second home team was always ready to help clean and hygiene room"
+    },
+    {
+        "title": "Great Staff",
+        "name": "Mishra",
+        "vendor": "Booking.com",
+        "review": "The hotel facilities and services were as expected. Proper care of cleanliness and hygiene was taken by the staff of the hotel."
+    },
+    {
+        "title": "Great Food",
+        "name": "Julka",
+        "vendor": "Booking.com",
+        "review": "Had a pleasant stay at Grand Vardhaman. Breakfast was good and the hotel was well located."
+    },
+    {
+        "title": "Good for business trips",
+        "name": "Rakul",
+        "vendor": "Booking.com",
+        "review": "Overall stay was good and will visit again for sure. Really liked the stay. Travelled for Business purpose. Overall everything was good and enjoyed."
+    },
+    {
+        "title": "Friendly Staff",
+        "name": "Sameer khan",
+        "vendor": "TripAdivise",
+        "review": "It was a great experience to stay in hotel grand vardhaman,nice people,good food,police staff.i advise one to stay for better location and market place,Deepak the manager is very helpful for guiding indore."
+    },
+    {
+        "title": "Comfortable Stay",
+        "name": "Daydream05881892053",
+        "vendor": "TripAdivise",
+        "review": "It is very comfortable to stay at hotel The Grand Vardhman, nice rooms,clean ने hygienic lilen, very polite and hardworking staff,good location to approach any where in indore,delicious food timely services."
+    },
+    {
+        "title": "Safe For Couples",
+        "name": "Sonia Damre",
+        "vendor": "MakeMyTrip",
+        "review": "Awesome hotel 👍 best services...safe for couples.. feel comfortable 🙌. In hotel very peaceful atmosphere and well maintained everything in room and hotel everywhere......."
+    },
+    {
+        "title": "Great For Long Stays",
+        "name": "ABIN ABRAHAM",
+        "vendor": "MakeMyTrip",
+        "review": "Had a pleasant stay for 7 days. Well located..Neat and spacious rooms..hygienic washrooms.. moreover, friendly behaviour towards customers."
+    },
+    {
+        "title": "Must Visit",
+        "name": "Pankaj Garwal",
+        "vendor": "MakeMyTrip",
+        "review": "Best Hotel near Bombay hospital, i visit here 2 times... Clean rooms and polite behavior.... must visit."
+    }
+]}

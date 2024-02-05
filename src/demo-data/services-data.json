@@ -1,0 +1,35 @@
+{
+
+    "services": [
+        {
+            "title": "Double Bed Rooms",
+            "desc": "We have a suite of 14 deluxe luxury (2x) double bed rooms with AC.",
+            "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/22/4b/09/56/oyo-66622-the-grand-vardhaman.jpg?w=1200&h=-1&s=1"
+        },
+        {
+            "title": "Executive Bed Rooms",
+            "desc": "We have a suite of 4 executive luxury (4x) rooms with AC.",
+            "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/22/4b/09/f5/oyo-66622-the-grand-vardhaman.jpg?w=1200&h=-1&s=1"
+        },
+        {
+            "title": "Conference Hall",
+            "desc": "We also provide AC Board room with 20 seat with LED and projector.",
+            "image": "https://5.imimg.com/data5/SELLER/Default/2022/11/NQ/GC/DR/116599768/conference-hall-interior-designing-service.jpg"
+        },
+        {
+            "title": "24x7 room service and front desk",
+            "desc": "Our staff is committed to provide you a memorable stay at our place.",
+            "image": "https://images.oyoroomscdn.com/uploads/hotel_image/90679/large/sxkdsehxsltr.jpg"
+        },
+        {
+            "title": "Veg Cuisine",
+            "desc": "We provide all veg options including indo-chinese, north-indian food etc.",
+            "image": "https://www.savaari.com/blog/wp-content/uploads/2023/04/Chole-bhature-in-Delhi-2.webp"
+        },
+        {
+            "title": "Party Hall",
+            "desc": "We also provide AC conference hall to accommodate up to 60 pax.",
+            "image": "https://cdn0.weddingwire.in/vendor/0243/3_2/1280/jpg/33029007-2057990021134094-5350920280288002048-n_15_150243.jpeg"
+        }
+    ]
+}
