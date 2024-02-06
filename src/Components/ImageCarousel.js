@@ -16,7 +16,7 @@ let CrousalCode = imageArray.map((imgSrc, index)=>{
                     <h1 className='crousal-header'>{data.name}</h1>
                     <h2 className='crousal-sub-header'>{data.tagline}</h2>
                     <Divider />
-                    <p>{data.subtag}</p>
+                    <p className='crousal-sub-text'>{data.subtag}</p>
                 </Carousel.Caption>
             </Carousel.Item>
 })
