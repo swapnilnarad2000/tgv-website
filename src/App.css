@@ -131,7 +131,7 @@
 }
 @media (max-width: 320px){
 	.crousal-image{
-		height: 350px !important;
+		height: 500px !important;
 	}
 	.navbar-toggler{
 		margin: 0px 120px 0px 120px;
@@ -153,7 +153,7 @@
 }
 @media (min-width: 321px) and (max-width: 426px){
 	.crousal-image{
-		height: 350px !important;
+		height: 500px !important;
 	}
 	.crousal-header{
 		margin-top: 50px !important;
