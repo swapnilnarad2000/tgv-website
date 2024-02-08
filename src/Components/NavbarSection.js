@@ -16,6 +16,14 @@ let hotelBrand = data.config.name_brand;
 let NavbarSection = () => {
   const [overlay, setOverlay] = useState(false);
   const [lastScrollY, setLastScrollY] = useState(0);
+  const [expanded, setExpanded] = useState(false);
+  const navToggle = () => {
+      setExpanded(expanded ? false : true);
+  };
+
+  const closeNav = () => {
+      setExpanded(false);
+  };
 
   const controlNavbar = useCallback(() => {
     if(window.scrollY === 0){
@@ -43,9 +51,9 @@ let NavbarSection = () => {
 
 
   return (
-    <Navbar expand="lg" fixed="top" id="navbar" className={`${overlay ? "bg-body-tertiary navbar-block active" : "inactive"}`} data-bs-theme="dark">
+    <Navbar expand="lg" fixed="top" id="navbar" expanded={expanded} className={`${overlay ? "bg-body-tertiary navbar-block active" : "inactive"}`} data-bs-theme="dark">
       <Container>
-        <Navbar.Brand href="#home" className="mx-auto">
+        <Navbar.Brand href="#home" className="mx-auto" onClick={closeNav}>
           <div className='logo'>
             <div className='logo-img-image'>
               <Image src={logo} fluid className='logo-image' />
@@ -57,17 +65,17 @@ let NavbarSection = () => {
           </div>
         </Navbar.Brand>
 
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={navToggle}/>
 
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#about">About Us</Nav.Link>
-            <Nav.Link href="#services">Our Services</Nav.Link>
-            <Nav.Link href="#testimony">Our Testimonials</Nav.Link>
-            <Nav.Link href="#gallery">Our Gallery</Nav.Link>
-            <Nav.Link href="#location">Locate Us</Nav.Link>
-            <Nav.Link href="#review">Review Us</Nav.Link>
+            <Nav.Link href="#home" onClick={closeNav}>Home</Nav.Link>
+            <Nav.Link href="#about" onClick={closeNav}>About Us</Nav.Link>
+            <Nav.Link href="#services" onClick={closeNav}>Our Services</Nav.Link>
+            <Nav.Link href="#testimony" onClick={closeNav}>Our Testimonials</Nav.Link>
+            <Nav.Link href="#gallery" onClick={closeNav}>Our Gallery</Nav.Link>
+            <Nav.Link href="#location" onClick={closeNav}>Locate Us</Nav.Link>
+            <Nav.Link href="#review" onClick={closeNav}>Review Us</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
