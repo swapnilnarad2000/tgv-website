@@ -4,9 +4,9 @@ import Navbar from 'react-bootstrap/Navbar';
 import React, { useState, useEffect } from 'react';
 import { useCallback } from 'react';
 
-import Image from 'react-bootstrap/Image';
+// import Image from 'react-bootstrap/Image';
 
-import logo from '../Assets/Hotel-Gallery and Hero Images/tgv-logo.jpg'
+// import logo from '../Assets/Hotel-Gallery and Hero Images/tgv-logo.jpg'
 
 import data from '../demo-data/hotel-data.json'
 
@@ -55,9 +55,9 @@ let NavbarSection = () => {
       <Container>
         <Navbar.Brand href="#home" className="mx-auto" onClick={closeNav}>
           <div className='logo'>
-            <div className='logo-img-image'>
+            {/* <div className='logo-img-image'>
               <Image src={logo} fluid className='logo-image' />
-            </div>
+            </div> */}
             <div className='logo-text'>
               <div className='logo-text-pre-head'>{hotelPrefix}</div>
               <div className='logo-text-head'>{hotelBrand}</div>
