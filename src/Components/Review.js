@@ -32,8 +32,7 @@ let Review = () => {
         setSuccessShow(false);
         setErrorShow(false);
 
-        // Try Data Submit
-        // Use Firebase Api
+        // Try Data Submit Use Firebase Api
         db.collection('feedbacks').add(
             data
         ).then(() => {
@@ -42,15 +41,6 @@ let Review = () => {
             console.log(error.message);
             setErrorShow(true);
         })
-
-        
-        // let success = (Math.ceil(Math.random() * 10) < 6 ? true : false);
-        // if (success) {
-        //     setErrorShow(true);
-        // }
-        // else {
-        //     setSuccessShow(true);
-        // }
         
     }
 
