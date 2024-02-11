@@ -9,15 +9,18 @@ import '../App.css';
 let Admin = () => {
     const [isLogin, setIsLogin] = useState(false);
     const [showMsg, setShowMsg] = useState("");
+    const [currentUser, setCurrentUser] = useState("Admin");
 
     useEffect(() => {
         const unsubscribe = auth.onAuthStateChanged((user) => {
             if (user) {
                 // User is signed in
                 setIsLogin(true);
+                setCurrentUser(user.displayName);
             } else {
                 // No user is signed in
                 setIsLogin(false);
+                setCurrentUser("Admin");
             }
         });
 
@@ -58,7 +61,7 @@ let Admin = () => {
                             {showMsg}
                         </p>
                     </Alert> : <></>}
-            {isLogin ? <AdminPanel handleSignOut={handleSignOut}/> : <AdminLogin handleSignIn={handleSignIn} />}
+            {isLogin ? <AdminPanel currentUser={currentUser} handleSignOut={handleSignOut}/> : <AdminLogin handleSignIn={handleSignIn} />}
             <div className="admin-page-footer">
                 <Footer />
             </div>

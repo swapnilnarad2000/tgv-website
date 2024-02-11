@@ -11,7 +11,9 @@ let AdminLogin = (props) => {
     return (
         <Row className='admin-login-page'>
             <Col className="admin-login-banner-block" md={6} sm={12} xs={12}>
-                <ReturnTo />
+                <div className='admin-login-back-link'>
+                    <ReturnTo />
+                </div>
                 <div className='logo'>
                     <Image src={logo} fluid className='logo-image' />
                     <div className='logo-text'>

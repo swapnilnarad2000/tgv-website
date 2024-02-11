@@ -1,7 +1,10 @@
 import { useEffect, useState } from "react";
 import { db } from "../Helpers/Firebase";
-import { Button } from "react-bootstrap";
+import { Button, Row, Col, Container } from "react-bootstrap";
+import FeedbackCard from "../Helpers/FeedbackCard"
 import ReturnTo from "./ReturnTo";
+import Image from 'react-bootstrap/Image';
+import logo from '../../Assets/Hotel-Gallery and Hero Images/tgv-logo.png'
 
 let AdminPanel = (props) => {
     const [data, setData] = useState([]);
@@ -23,15 +26,18 @@ let AdminPanel = (props) => {
     return (
         <div className="admin-panel-page">
             <div className="admin-panel-nav">
-                <ReturnTo></ReturnTo>
+                <div className="admin-panel-back-btn"><ReturnTo></ReturnTo></div>
+                <div>
+                    <Image src={logo} fluid className='logo-image' />
+                </div>
+                <div><Button variant="danger" className="admin-sign-out-btn" onClick={() => props.handleSignOut()}>Sign Out</Button></div>
             </div>
-            <h1>Admin Page</h1>
-            {data.length ? <ul>
-                {data.map(item => (
-                    <li key={item.id}>{item.fullName} - {item.message}</li>
-                ))}
-            </ul> : <p> Couldnt Reach Servers Right Now 😒!!! </p>}
-            <Button onClick={() => props.handleSignOut()}>Sign Out</Button>
+            <Container>
+                <Row>
+                    <h1 className="admin-panel-title">Welcome {props.currentUser} ! Here are some latest feedbacks...</h1>
+                    {data.length ? data.map(item => (<Col md={4} sm={12} xs={12}><FeedbackCard data={item} /></Col>)) : <p> Couldnt Reach Servers Right Now 😒!!! </p>}
+                </Row>
+            </Container>
         </div>
     );
 }
