@@ -35,7 +35,7 @@ let AdminPanel = (props) => {
             <Container>
                 <Row>
                     <h1 className="admin-panel-title">Welcome {props.currentUser} ! Here are some latest feedbacks...</h1>
-                    {data.length ? data.map(item => (<Col md={4} sm={12} xs={12}><FeedbackCard data={item} /></Col>)) : <p> Couldnt Reach Servers Right Now 😒!!! </p>}
+                    {data.length ? data.map(item => (<Col md={4} sm={12} xs={12} className="admin-card-item"><FeedbackCard data={item} /></Col>)) : <p> Couldnt Reach Servers Right Now 😒!!! </p>}
                 </Row>
             </Container>
         </div>
