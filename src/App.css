@@ -648,7 +648,7 @@
 }
 
 .admin-panel-page{
-	height: 100vh;
+	min-height: 100vh;
 	background-image: url('./Assets/Texture\ 3.png');
 	padding-bottom: 20px;
 }
