@@ -5,6 +5,7 @@ import React, { useState, useEffect } from 'react';
 import { useCallback } from 'react';
 
 import Image from 'react-bootstrap/Image';
+import tool from '../Assets/logos/admin-icon.png'
 
 import logo from '../Assets/Hotel-Gallery and Hero Images/tgv-logo.png'
 
@@ -76,6 +77,7 @@ let NavbarSection = () => {
             <Nav.Link href="#gallery" onClick={closeNav}>Our Gallery</Nav.Link>
             <Nav.Link href="#location" onClick={closeNav}>Locate Us</Nav.Link>
             <Nav.Link href="#review" onClick={closeNav}>Review Us</Nav.Link>
+            <Nav.Link href="/admin" onClick={closeNav}><Image className="admin-icon" src={tool}></Image></Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

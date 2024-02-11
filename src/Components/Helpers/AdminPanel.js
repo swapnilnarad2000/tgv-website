@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { db } from "../Helpers/Firebase";
 import { Button } from "react-bootstrap";
+import ReturnTo from "./ReturnTo";
 
 let AdminPanel = (props) => {
     const [data, setData] = useState([]);
@@ -21,6 +22,9 @@ let AdminPanel = (props) => {
 
     return (
         <div className="admin-panel-page">
+            <div className="admin-panel-nav">
+                <ReturnTo></ReturnTo>
+            </div>
             <h1>Admin Page</h1>
             {data.length ? <ul>
                 {data.map(item => (

@@ -35,7 +35,6 @@ let Admin = () => {
                 // Handle sign-in errors
                 console.error("Sign-in error:", error);
                 setShowMsg(error.message);
-                console.log(showMsg);
             });
     };
 
